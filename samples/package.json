@@ -1,0 +1,35 @@
+{
+  "name": "mixed-compressor-test",
+  "description": "compress files and mixed file.",
+  "version": "0.1.3",
+  "homepage": "https://github.com/donghanji/compressor",
+  "author": {
+    "name": "donghanji",
+    "url": "https://donghanji.github.com"
+  },
+  "main": "gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "mixed-compressor": "~0.1.3",
+	"grunt-contrib-copy":"~0.4.0"
+  },
+  "keywords": [
+    "grunttest"
+  ],
+  "contributors": [
+    {
+      "name": "donghanji",
+      "url": "https://donghanji.github.com"
+    }
+  ],
+  "repository":{
+	"type":"git",
+	"url":"git://github.com/donghanji/compressor.git"
+  },
+  "readmeFilename": "README.md"
+}

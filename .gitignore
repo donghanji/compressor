@@ -19,9 +19,6 @@ local.properties
 record.txt
 /node_modules/
 /tmp
-gruntfile.js
-Gruptfile.js
-package.json
 
 # External tool builders
 .externalToolBuilders/
