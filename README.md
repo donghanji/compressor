@@ -55,7 +55,8 @@ If you haven't used <a href="http://gruntjs.com/">Grunt</a> before, be sure to c
 
     npm install mixed-compressor
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
-    grunt.loadNpmTasks('mixed-compressor');
+    
+	grunt.loadNpmTasks('mixed-compressor');
 ##### Sample
 	compressor:{
 		css:{
@@ -90,6 +91,9 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 	
 #### Also you can learn it from samples file,it is a complete example contains the package.json and the gruntfile.js(take a good look at this file).
 First:
-    npm install
+    
+	npm install
+	
 Second:
+	
 	grunt
