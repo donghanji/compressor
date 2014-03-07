@@ -37,6 +37,14 @@
 			<script type="text/javascript" src="/module.js"></script>
 	</html>
 
+
+## Getting Started
+This plugin requires Grunt ~0.4.1
+If you haven't used <a href="http://gruntjs.com/">Grunt</a> before, be sure to check out the <a href="http://gruntjs.com/getting-started">Getting Started</a> guide, as it explains how to create a <a href="http://gruntjs.com/sample-gruntfile">Gruntfile</a> as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+
+    npm install mixed-compressor
+Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+    
 	compressor:{
 		css:{
 			//compress css file, like cssmin, to https://github.com/gruntjs/grunt-contrib-cssmin
@@ -48,15 +56,10 @@
 			//compress html file, like htmlmin, to https://github.com/gruntjs/grunt-contrib-htmlmin
 		}
 	}
-
-## Getting Started
-This plugin requires Grunt ~0.4.1
-If you haven't used <a href="http://gruntjs.com/">Grunt</a> before, be sure to check out the <a href="http://gruntjs.com/getting-started">Getting Started</a> guide, as it explains how to create a <a href="http://gruntjs.com/sample-gruntfile">Gruntfile</a> as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
-
-    npm install mixed-compressor
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
-    
+	
+	
 	grunt.loadNpmTasks('mixed-compressor');
+	
 ##### Sample
 	compressor:{
 		css:{
